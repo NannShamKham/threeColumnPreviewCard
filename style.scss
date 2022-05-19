@@ -1,0 +1,67 @@
+
+$theme-colors:(
+        "primary":hsl(184, 100%, 22%),//
+        "secondary":hsl(179, 100%, 13%),//
+
+        "warning":hsl(31, 77%, 52%),//bright Orange
+        "white":hsla(0, 0%, 100%, 0.75),
+        "danger":hsl(0, 0%, 95%)//background heading button
+);
+
+
+
+//$border-radius:15px;
+//$btn-border-radius:10px;
+$btn-border-radius-lg:15px;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+$font-family-sans-serif: 'Big Shoulders Display', cursive,'Lexend Deca', sans-serif;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/animate.css";
+
+
+.spacer{
+  height: 40px;
+}
+
+p{
+  font-size: 15px !important;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+h4{
+  font-size: 42px !important;
+  font-family: 'Big Shoulders Display', cursive;
+
+}
+button{
+  font-size: 15px !important;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: 0.5s;
+}
+.seden-btn{
+  transition: 0.5s;
+}
+.seden-btn:hover{
+ color: var(--bs-warning) !important;
+
+}
+.second-btn{
+  transition: 0.5s;
+}
+.second-btn:hover{
+ color: var(--bs-primary) !important;
+}
+.third-btn{
+  transition: 0.5s;
+}
+.third-btn:hover{
+  color: var(--bs-secondary) !important;
+}
+
+
+
